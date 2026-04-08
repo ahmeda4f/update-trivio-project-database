@@ -11,7 +11,7 @@ db = client['test']
 user_collection = db['users']
 post_collection = db['posts']
 
-data_path = "/trivio_synonyms.json" 
+data_path = "trivio_synonyms.json" 
 data = json.load(open(data_path, "r"))
 mapping = {}
 
